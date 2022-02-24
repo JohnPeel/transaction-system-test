@@ -1,0 +1,11 @@
+[package]
+name = "transaction-system"
+version = "0.1.0"
+authors = ["John Peel <john@dgby.org>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.1"
+bigdecimal = { version = "0.3", features = ["serde"] }
